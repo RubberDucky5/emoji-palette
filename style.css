@@ -1,4 +1,4 @@
-/* 
+/*
 Color Reference:
 bg: #11111a
 lighter than bg: #1d1d25
@@ -15,10 +15,14 @@ theme color: #9bf2cc
     border-radius: 6px;
     background-color: #282830;
     color: white;
+    width: 10.92vw;
+    height: 10.92vw;
     padding: 10px 10px;
     text-align: center;
     display: inline-block;
     transition-duration: 0.5s;
+    font-size: 5vw;
+    float: left;
 }
 .copy-button:hover {
     background-color: #383847;
