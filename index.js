@@ -1,6 +1,6 @@
 // CORS makes me sad sometimes :(
 let emoji = {
-    emoji: ["❤️","👍","😎","💥","⭐","🔥","✔️","❗","❌","🚀","🌈","🐞"]
+    emoji: ["❤️","👍","😎","💥","⭐","🔥","✔️","❗","❌","🚀","🌈","🐞","🔨","🔑","💾","🎉","🍻","⚠️"]
 };
 // fetch("data/emoji.json")
 // .then(response => {
@@ -9,6 +9,7 @@ let emoji = {
 
 let ea = emoji.emoji;
 let emojiButtonList = [];
+let container = document.getElementById("grid-container");
 
 for(let i = 0; i < ea.length; i++){
   let temp = document.createElement("button");

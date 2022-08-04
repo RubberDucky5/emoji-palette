@@ -15,15 +15,29 @@ theme color: #9bf2cc
     border-radius: 6px;
     background-color: #282830;
     color: white;
-    width: 10.92vw;
-    height: 10.92vw;
+    /* width: 10vw; */
+    /* height: calc(33vh - 10px); */
     padding: 10px 10px;
     text-align: center;
     display: inline-block;
     transition-duration: 0.5s;
-    font-size: 5vw;
-    float: left;
+    font-size: 8vw;
 }
+/* .copy-button + .copy-button {
+    margin-left: 10%;
+    margin-top: 10%;
+} */
+
 .copy-button:hover {
     background-color: #383847;
+}
+.copy-button:active {
+    background-color: #303039;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17vw, 1fr));
+  grid-gap: 4px 4px;
+  grid-auto-rows: calc(17vw);
 }
